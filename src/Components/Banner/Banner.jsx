@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <div className="flex items-center  bg-linear-to-tr from-[#FEF9EF] to-[#faedc9] pt-18 overflow-hidden">
       <img className="w-1/5 md:w-auto" src={map} alt="" />
-      <div className="w-9/12 mx-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-5 md:gap-25">
+      <div className=" relative w-9/12 mx-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-5 md:gap-25">
         <div className="md:w-[48%] space-y-5">
           <p className="text-secondary text-xs">🔥Award wining Company</p>
           <h1 className="font-semibold text-3xl">
@@ -50,7 +50,7 @@ const Banner = () => {
           />
         </div>
         <img
-          className="absolute z-10 w-25 top-69 right-0 xsl:w-30 xsl:top-78 xs:right-3 xs:top-73  lg:w-50 xl:w-62 lg:-right-1 lg:top-86 xl:right-18 xl:top-93 2xl:right-52 md:top-78 md:right-34 md:w-40 "
+          className="absolute z-10 w-30 top-27 -right-7 xsl:w-40 xsl:top-35 xsl:-right-10 xs:w-35 xs:-right-8 xs:top-31  lg:w-50 xl:w-62 lg:-right-20 lg:top-37 xl:-right-14 xl:top-44 2xl:right-7 md:top-30 md:right-23 md:w-40 "
           src={businessAnalytics}
           alt=""
         />
