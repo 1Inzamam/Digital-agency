@@ -4,7 +4,7 @@ import NavBar from '../Components/NavBar/NavBar'
 
 const Root = () => {
   return (
-      <div>
+      <div className='overflow-hidden'>
           <NavBar></NavBar>
           <Outlet></Outlet>
           <Footer></Footer>

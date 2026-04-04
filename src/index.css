@@ -18,3 +18,8 @@
 *{
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+@theme {
+  --breakpoint-xs: 375px;
+  --breakpoint-xsl: 425px;
+}

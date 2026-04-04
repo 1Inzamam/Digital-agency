@@ -44,11 +44,9 @@ const NavBar = () => {
   return (
     <div className="bg-[#FEF9EF] navbar shadow-[0_1px_20px_rgba(0,0,0,0.15)] relative z-50">
       <div className="w-11/12 md:w-9/12 mx-auto py-5 md:py-9">
-        {/* Top row: logo + hamburger */}
         <div className="flex justify-between items-center">
           <img src={navLogo} alt="NavBar Logo" className="h-10 md:h-auto" />
 
-          {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-10">
             <nav className="text-[#2B2121] lg:text-xs xl:text-lg flex gap-8">
               {navLinks.map(({ to, label }) => (
@@ -65,12 +63,11 @@ const NavBar = () => {
                 </NavLink>
               ))}
             </nav>
-            <button className="btn btn-primary py-3 px-6 text-base flex items-center gap-2">
+            <button className="btn btn-primary py-3 px-6 text-white flex items-center gap-2">
               Get Started <GoArrowRight className="rotate-[-30deg]" />
             </button>
           </div>
 
-          {/* Hamburger button (mobile/tablet) */}
           <button
             className="lg:hidden text-[#2B2121] text-3xl"
             onClick={() => setIsOpen(!isOpen)}
@@ -80,7 +77,6 @@ const NavBar = () => {
           </button>
         </div>
 
-        {/* Mobile menu */}
         {isOpen && (
           <div className="lg:hidden mt-4 flex flex-col gap-4 pb-4 border-t border-gray-200 pt-4">
             <nav className="text-[#2B2121] flex flex-col gap-3">
@@ -97,7 +93,7 @@ const NavBar = () => {
                 </NavLink>
               ))}
             </nav>
-            <button className="btn btn-primary py-3 px-6 text-base flex items-center gap-2 w-fit">
+            <button className="btn btn-primary py-3 px-6 text-white flex items-center gap-2 w-fit">
               Get Started <GoArrowRight className="rotate-[-30deg]" />
             </button>
           </div>
