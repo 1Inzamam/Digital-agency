@@ -10,9 +10,9 @@ import logo from "../../assets/image/logos_dailydev-icon.png";
 
 const WhoWeAre = () => {
   return (
-    <div className="bg-[#FEF9EF] py-20">
-      <div className="w-9/12 mx-auto flex flex-col lg:flex-row gap-10">
-        <div className="w-[48%] relative">
+    <div className="bg-[#FEF9EF] py-20 ">
+      <div className=" w-9/12 mx-auto flex flex-col lg:flex-row gap-30  ">
+        <div className="w-[48%] relative ">
           {/* girl and ellipse */}
           <div className="">
             <img
@@ -31,7 +31,7 @@ const WhoWeAre = () => {
             <img className="absolute top-40 left-70" src={star2} alt="" />
           </div>
           {/*rectangle and logo */}
-          <div className="absolute z-11 top-74 left-52 max-w-36 flex  items-center justify-center">
+          <div className="relative z-11 -top-61 left-49 max-w-36 flex  items-center justify-center">
             <img
               className="relative border-4 rounded-full border-white"
               src={rectangle}
@@ -40,27 +40,31 @@ const WhoWeAre = () => {
             <img className="absolute " src={logo} alt="" />
           </div>
           {/* star and digital marketing */}
-          <div className="absolute top-76 left-55">
+          <div className="relative -top-73 left-55">
             <img className="absolute -left-20 top-20" src={star} alt="" />
             <img className="absolute -left-35 top-35" src={ellipse} alt="" />
             <img className="relative" src={digitalMarketing} alt="" />
           </div>
         </div>
-        <div className="w-[48%]">
-          <h2 className="text-3xl font-semibold">Who We Are</h2>
-          <p>
-            At Web Briks, we began our journey in early 2018 as "Cut Out
-            Expert." Our focus was on providing high-quality photo editing
-            services. As we grew and gained more clients, we decided to expand
-            our offerings. This growth led us to create "Web Briks LLC." Now, we
-            offer additional services, including virtual assistance and web
-            design.
-          </p>
-          <p>
-            Our founders bring a wealth of experience and vision to our company.
-            They lead a passionate team dedicated to helping clients succeed. We
-            prioritize tailored solutions that meet each client’s unique needs.
-          </p>
+        {/* text content */}
+        <div className="w-[40%] space-y-8  ">
+          <h2 className="text-4xl font-semibold">Who We Are</h2>
+          <div className="space-y-4 font-normal text-sm text-neutral">
+            <p>
+              At Web Briks, we began our journey in early 2018 as "Cut Out
+              Expert." Our focus was on providing high-quality photo editing
+              services. As we grew and gained more clients, we decided to expand
+              our offerings. This growth led us to create "Web Briks LLC." Now,
+              we offer additional services, including virtual assistance and web
+              design.
+            </p>
+            <p>
+              Our founders bring a wealth of experience and vision to our
+              company. They lead a passionate team dedicated to helping clients
+              succeed. We prioritize tailored solutions that meet each client’s
+              unique needs.
+            </p>
+          </div>
           <button className="btn btn-secondary py-3 px-6 text-white flex items-center gap-2">
             Learn More <GoArrowRight className="rotate-[-30deg]" />
           </button>

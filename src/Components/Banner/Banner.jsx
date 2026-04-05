@@ -7,8 +7,8 @@ import topClient from "../../assets/image/top-client.png";
 import map from "../../assets/image/transparent-half-map.png";
 const Banner = () => {
   return (
-    <div className="flex items-center  bg-linear-to-tr from-[#FEF9EF] to-[#faedc9] pt-18 overflow-hidden">
-      <img className="w-1/5 md:w-auto" src={map} alt="" />
+    <div className="flex relative items-center  bg-linear-to-tr from-[#FEF9EF] to-[#faedc9] pt-18 overflow-hidden">
+      <img className="absolute" src={map} alt="" />
       <div className=" relative w-9/12 mx-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-5 md:gap-25">
         <div className="md:w-[48%] space-y-5">
           <p className="text-secondary text-xs">🔥Award wining Company</p>
