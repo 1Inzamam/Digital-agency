@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 import { IoTriangle } from "react-icons/io5";
-import pen from "../../assets/image/service pen.png";
-import service from "../../assets/image/Service icon.png";
-import serviceBg from "../../assets/image/Rectangle service.png";
 import ai from "../../assets/image/Ai.png";
 import va from "../../assets/image/desktop.png";
+import serviceBg from "../../assets/image/Rectangle service.png";
+import service from "../../assets/image/Service icon.png";
+import pen from "../../assets/image/service pen.png";
 
 const Service = () => {
   const [colorChange, setColorChange] = useState(null);
@@ -13,7 +13,7 @@ const Service = () => {
     <div className=" bg-linear-to-tr from-[#fcf5e8] to-[#FEF9EF]">
       <div className="w-9/12 mx-auto space-y-3">
         {/*first section*/}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
+        <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 xl:p-4">
           {/* heading and description */}
           <div className="col-span-2 space-y-12">
             <div className="space-y-6">
@@ -31,7 +31,7 @@ const Service = () => {
             </button>
           </div>
           {/* first two service */}
-          <div className="col-span-2 grid grid-cols-2 gap-4">
+          <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* graphics design */}
             <div
               onMouseEnter={() => setColorChange("graphics")}
@@ -82,7 +82,7 @@ const Service = () => {
           </div>
         </div>
         {/*divider*/}
-        <div className="border-t  grid grid-cols-4 relative text-gray-300">
+        <div className="hidden  border-t  xl:grid grid-cols-4 relative text-gray-300 ">
           <div className="flex justify-center relative">
             <IoTriangle
               className={`absolute rotate-180 -bottom-3.5 ${colorChange === "virtual" ? "text-orange-500" : "text-gray-300"}`}
@@ -106,9 +106,9 @@ const Service = () => {
         </div>
         {/*second section*/}
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 p-4 items-center">
+          <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 xl:p-4 items-center">
             {/*cards*/}
-            <div className="col-span-2 grid grid-cols-2 gap-4">
+            <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
               {/* Virtual Assistant */}
               <div
                 onMouseEnter={() => setColorChange("virtual")}
