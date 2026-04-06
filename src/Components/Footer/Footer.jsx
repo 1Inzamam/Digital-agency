@@ -1,23 +1,24 @@
-import React from 'react'
-import logo from "../../assets/image/footerLogo.png"
-import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa6';
-import { IoLogoInstagram } from 'react-icons/io';
-import { SiInstagram } from 'react-icons/si';
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
+import { SiInstagram } from "react-icons/si";
+import logo from "../../assets/image/footerLogo.png";
+import visaCards from "../../assets/image/visaCard.png";
+import OverlapContents from "./overlapContents";
 const Footer = () => {
   return (
-    <div className="bg-primary">
-      <footer className="w-9/12 mx-auto footer sm:footer-horizontal bg-primary text-white p-10">
+    <div className="bg-primary relative pt-60">
+      <OverlapContents></OverlapContents>
+      <footer className="w-9/12 mx-auto footer sm:footer-horizontal bg-primary text-white py-10">
         <aside>
           <img src={logo} alt="" />
           <p className="w-80">
             We offer a range of services to help your business succeed, from
             design and development to digital marketing and more.
           </p>
-          <div className='space-y-4'>
-            <h1 className='text-xl'>Follow Us On Social Media</h1>
+          <div className="space-y-4">
+            <h1 className="text-xl">Follow Us On Social Media</h1>
             <div className="flex items-center gap-3">
               <FaFacebookF className="text-2xl" />
-              <SiInstagram className='text-2xl' />
+              <SiInstagram className="text-2xl" />
               <FaLinkedinIn className="text-2xl" />
             </div>
           </div>
@@ -49,8 +50,15 @@ const Footer = () => {
           </h3>
         </div>
       </footer>
+      <div className="w-9/12 mx-auto text-white flex justify-between">
+        <p>&copy; 2024 Webbriks LLC. All rights reserved.</p>
+        <div className="flex items-center gap-3">
+          <p>We Accept: </p>
+          <img src={visaCards} alt="" />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
