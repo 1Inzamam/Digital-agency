@@ -1,6 +1,7 @@
 import WhoWeAre from "../Components/About/WhoWeAre";
 import Banner from "../Components/Banner/Banner";
 import FeaturedWorks from "../Components/FeaturedWorks/FeaturedWorks";
+import HowWeWork from "../Components/HowWeWork/HowWeWork";
 import Service from "../Components/Service/Service";
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <WhoWeAre></WhoWeAre>
       <Service></Service>
       <FeaturedWorks></FeaturedWorks>
+      <HowWeWork></HowWeWork>
     </div>
   );
 };
