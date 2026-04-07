@@ -55,7 +55,7 @@ const Footer = () => {
           </h3>
         </div>
       </footer>
-      <div className="w-9/12 mx-auto text-white flex flex-col-reverse gap-3 md:flex-row justify-between items-center">
+      <div className="w-9/12 mx-auto text-white flex flex-col-reverse gap-3 md:flex-row justify-between items-center pb-10">
         <p className="text-xs xl:text-sm">
           &copy; 2024 Webbriks LLC. All rights reserved.
         </p>
