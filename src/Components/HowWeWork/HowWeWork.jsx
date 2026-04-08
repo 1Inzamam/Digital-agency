@@ -43,7 +43,7 @@ const cards = [
 
 const HowWeWork = () => {
   return (
-    <div className="py-10 w-9/12 mx-auto">
+    <div className="pt-16 lg:pt-28 w-9/12 mx-auto">
       <div className="text-center mb-10 flex flex-col items-center">
         <h1 className="text-4xl font-bold">How We Work</h1>
         <p className="text-neutral mt-4 md:w-80 lg:w-xl">

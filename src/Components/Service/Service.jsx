@@ -10,7 +10,7 @@ import pen from "../../assets/image/service pen.png";
 const Service = () => {
   const [colorChange, setColorChange] = useState(null);
   return (
-    <div className=" bg-linear-to-tr from-[#fcf5e8] to-[#FEF9EF]">
+    <div className=" bg-linear-to-tr from-[#fcf5e8] to-[#FEF9EF] pt-16 lg:pt-28">
       <div className="w-9/12 mx-auto space-y-3">
         {/*first section*/}
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-4 xl:p-4">

@@ -11,7 +11,7 @@ import Counter from "./Counter";
 
 const WhoWeAre = () => {
   return (
-    <div className="bg-[#FEF9EF] py-20 ">
+    <div className="bg-[#FEF9EF] pt-16 lg:pt-28 ">
       {/* container */}
       <div className=" w-9/12 mx-auto flex flex-col lg:flex-row gap-30 items-center ">
         {/* image collage */}

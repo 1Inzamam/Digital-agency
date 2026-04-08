@@ -1,7 +1,7 @@
 import image from "../../assets/image/FAQman.png"
 const FAQ = () => {
   return (
-    <div className="w-9/12 mx-auto flex flex-col-reverse xl:flex-row justify-between gap-9">
+    <div className="w-9/12 mx-auto flex flex-col-reverse xl:flex-row justify-between gap-9 pt-16 lg:pt-28">
       {/* Accordion */}
       <div className="xl:w-[48%] space-y-8">
         <div className="collapse collapse-plus bg-base-100 border border-base-300">
