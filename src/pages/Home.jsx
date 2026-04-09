@@ -5,6 +5,7 @@ import FeaturedWorks from "../Components/FeaturedWorks/FeaturedWorks";
 import HowWeWork from "../Components/HowWeWork/HowWeWork";
 import MeetOurTeam from "../Components/MeetOurTeam/MeetOurTeam";
 import Service from "../Components/Service/Service";
+import WhatClientsThinkAboutUs from "../Components/WhatClientsThinkAboutUs/WhatClientsThinkAboutUs";
 import WhatMakesUsDifferent from "../Components/WhatMakesUsDifferent/WhatMakesUsDifferent";
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <FAQ></FAQ>
       <WhatMakesUsDifferent></WhatMakesUsDifferent>
       <MeetOurTeam></MeetOurTeam>
+      <WhatClientsThinkAboutUs></WhatClientsThinkAboutUs>
     </div>
   );
 };
