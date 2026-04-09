@@ -3,6 +3,7 @@ import Banner from "../Components/Banner/Banner";
 import FAQ from "../Components/FAQ/FAQ";
 import FeaturedWorks from "../Components/FeaturedWorks/FeaturedWorks";
 import HowWeWork from "../Components/HowWeWork/HowWeWork";
+import MeetOurTeam from "../Components/MeetOurTeam/MeetOurTeam";
 import Service from "../Components/Service/Service";
 import WhatMakesUsDifferent from "../Components/WhatMakesUsDifferent/WhatMakesUsDifferent";
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <HowWeWork></HowWeWork>
       <FAQ></FAQ>
       <WhatMakesUsDifferent></WhatMakesUsDifferent>
+      <MeetOurTeam></MeetOurTeam>
     </div>
   );
 };
