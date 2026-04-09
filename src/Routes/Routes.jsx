@@ -3,7 +3,7 @@ import Root from "../Root/Root";
 import Home from "../pages/Home";
 import Error from "../pages/Error";
 import AboutUs from "../pages/AboutUs";
-import Service from "../pages/Service";
+import Service from "../pages/Services";
 import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
 
@@ -18,7 +18,10 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-
+      {
+        path: "/about-us",
+        element: <AboutUs></AboutUs>,
+      },
       {
         path: "/service",
         element: <Service></Service>,
@@ -32,9 +35,5 @@ export const router = createBrowserRouter([
         element: <Contact></Contact>,
       },
     ],
-  },
-  {
-    path: "/about-us",
-    element: <AboutUs></AboutUs>,
   },
 ]);

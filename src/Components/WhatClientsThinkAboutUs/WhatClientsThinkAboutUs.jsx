@@ -113,7 +113,7 @@ const WhatClientsThinkAboutUs = () => {
 
   return (
     <div
-      className="w-9/12 md:w-10/12 lg:w-9/12 mx-auto mt-16 lg:mt-28 flex flex-col lg:flex-row items-center gap-10 lg:gap-6 bg-cover bg-center"
+      className="w-9/12 md:w-10/12 lg:w-9/12 mx-auto my-16 lg:my-28 flex flex-col lg:flex-row items-center gap-10 lg:gap-6 bg-cover bg-center"
       style={{ backgroundImage: `url(${map})` }}
     >
       {/* Left text section */}
