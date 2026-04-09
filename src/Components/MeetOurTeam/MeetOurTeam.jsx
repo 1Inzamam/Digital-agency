@@ -18,13 +18,13 @@ const MeetOurTeam = () => {
     },
     {
       image: member3,
-      name: "Mark",
+      name: "Tony",
       position: "Marketing Manager",
     },
     {
       image: member4,
       name: "Chris",
-      position: "Investor",
+      position: "Graphics Designer",
     },
   ];
 

@@ -7,7 +7,7 @@ const AboutFooter = () => {
   return (
     <div className="bg-primary relative">
       
-      <footer className="w-9/12 mx-auto footer sm:footer-horizontal bg-primary text-white py-10">
+      <footer className="w-9/12 mx-auto footer sm:footer-horizontal bg-primary text-white py-10 mt-16 lg:mt-28">
         <aside className="space-y-4">
           <img src={logo} alt="" />
           <p className="w-full xl:w-80 text-sm xl:text-base">
