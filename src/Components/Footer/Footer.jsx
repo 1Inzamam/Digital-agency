@@ -2,7 +2,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 import { SiInstagram } from "react-icons/si";
 import logo from "../../assets/image/footerLogo.png";
 import visaCards from "../../assets/image/visaCard.png";
-import OverlapContents from "./overlapContents";
+import OverlapContents from "./OverlapContents";
 
 const Footer = () => {
   return (
