@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { NavLink } from "react-router";
 import navLogo from "../../assets/image/Webbriks logo-ai 1.png";
@@ -13,11 +12,10 @@ const NavBar = () => {
     { to: "/about-us", label: "About us" },
     { to: "/service", label: "Service" },
     { to: "/portfolio", label: "Portfolio" },
-    { to: "/contacts", label: "Contact" },
   ];
 
   return (
-    <div className="bg-[#FEF9EF] navbar shadow-[0_1px_20px_rgba(0,0,0,0.15)] relative z-50">
+    <div className="bg-[#FEF9EF] navbar shadow-[0_1px_20px_rgba(0,0,0,0.15)] sticky top-0 z-50">
       <div className="w-11/12 md:w-9/12 mx-auto py-5 md:py-9">
         <div className="flex justify-between items-center">
           <img src={navLogo} alt="NavBar Logo" className="h-10 md:h-auto" />

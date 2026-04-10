@@ -10,7 +10,7 @@ import WhatClientsThinkAboutUs from "../Components/WhatClientsThinkAboutUs/WhatC
 import WhatMakesUsDifferent from "../Components/WhatMakesUsDifferent/WhatMakesUsDifferent";
 const Home = () => {
   return (
-    <div className="bg-[#FEF9EF] ">
+    <div className="bg-[#FEF9EF] overflow-hidden">
       <Banner></Banner>
       <WhoWeAre></WhoWeAre>
       <Service></Service>
