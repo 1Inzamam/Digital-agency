@@ -29,7 +29,6 @@ export const router = createBrowserRouter([
         path: "/portfolio",
         element: <Portfolio></Portfolio>,
       },
-      
     ],
   },
 ]);
