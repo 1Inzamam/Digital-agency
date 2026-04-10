@@ -1,29 +1,4 @@
-// import { NavLink } from "react-router";
-// import navLogo from "../../assets/image/Webbriks logo-ai 1.png";
-// import { GoArrowRight } from "react-icons/go";
-// const NavBar = () => {
-//   return (
-//     <div className=" bg-[#FEF9EF] navbar shadow-[0_1px_20px_rgba(0,0,0,0.15)] ">
-//       <div className="flex justify-between items-center w-9/12 mx-auto py-9 ">
-//         <img src={navLogo} alt="NavBar Logo" />
-//         <div className="flex items-center gap-35">
-//           <nav className="text-[#2B2121] flex gap-8">
-//             <NavLink to="/">Home</NavLink>
-//             <NavLink to="/about-us">About us</NavLink>
-//             <NavLink to="/service">Service</NavLink>
-//             <NavLink to="/portfolio">Portfolio</NavLink>
-//             <NavLink to="/contacts">Contact</NavLink>
-//           </nav>
-//           <button className="btn btn-primary py-7 px-9 text-xl">
-//             Get Started <GoArrowRight className="rotate-330" />
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 
-// export default NavBar;
 import { useState } from "react";
 import { NavLink } from "react-router";
 import navLogo from "../../assets/image/Webbriks logo-ai 1.png";
@@ -55,8 +30,8 @@ const NavBar = () => {
                   to={to}
                   className={({ isActive }) =>
                     isActive
-                      ? "font-semibold text-primary"
-                      : "hover:text-primary transition-colors"
+                      ? "font-semibold text-secondary"
+                      : "hover:text-secondary transition-colors"
                   }
                 >
                   {label}
@@ -86,7 +61,7 @@ const NavBar = () => {
                   to={to}
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) =>
-                    `text-base py-1 ${isActive ? "font-semibold text-primary" : "hover:text-primary transition-colors"}`
+                    `text-base py-1 ${isActive ? "font-semibold text-secondary" : "hover:text-secondary transition-colors"}`
                   }
                 >
                   {label}
